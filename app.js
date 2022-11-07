@@ -19,7 +19,7 @@ headDropdown.addEventListener('change', () => {
     const value = headDropdown.value;
 
     headCount++;
-    headEl.backgroundImage = `url('./assets/${value}-head.png')`;
+    headEl.style.backgroundImage = `url('./assets/${value}-head.png')`;
     displayStats();
 });
 
@@ -27,7 +27,7 @@ middleDropdown.addEventListener('change', () => {
     const value = middleDropdown.value;
 
     middleCount++;
-    middleEl.backgroundImage = `url('./assets/${value}-middle.png')`;
+    middleEl.style.backgroundImage = `url('./assets/${value}-middle.png')`;
     displayStats();
 });
 
@@ -35,7 +35,7 @@ bottomDropdown.addEventListener('change', () => {
     const value = bottomDropdown.value;
 
     bottomCount++;
-    bottomEl.backgroundImage = `url('./assets/${value}-pants.png')`;
+    bottomEl.style.backgroundImage = `url('./assets/${value}-pants.png')`;
     displayStats();
 });
 
